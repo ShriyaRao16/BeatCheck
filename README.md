@@ -1,5 +1,5 @@
 # BeatCheck
-Heart Disease Prediction App
+Heart Disease Prediction App<br/>
 A desktop application that predicts the risk of heart disease using a machine learning model and a clean, user-friendly Tkinter GUI. Built with healthcare in mind, this app makes risk prediction accessible to users in real-time.<br/>
 
 💡 Features<br/>
