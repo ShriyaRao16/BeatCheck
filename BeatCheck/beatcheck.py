@@ -13,12 +13,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score, classification_report
 
-# Step 1: Load and clean the CSV - FIXED
-# The CSV uses tab separator, not comma
-df = pd.read_csv("heart.csv", sep="\t")
 
-# Step 2: Clean the data properly
-# Remove any leading/trailing spaces from all columns
+df = pd.read_csv("heart.csv", sep="\t")
 for col in df.columns:
     if df[col].dtype == 'object':
         df[col] = df[col].astype(str).str.strip()
